@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.9.1",
+    "baseName": "testservice",
+    "packageName": "com.ljedrzynski",
+    "packageFolder": "com/ljedrzynski",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "221a6df0d95537daed25c5c4ab128155949146ac",
+    "enableTranslation": true,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "ca",
+      "pl"
+    ]
+  }
+}
